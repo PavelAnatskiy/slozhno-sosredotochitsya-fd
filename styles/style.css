@@ -403,8 +403,8 @@
     grid-row: 2/3;
     align-self: start;
     justify-self: start;
-    margin-left: -20px;
     margin-top: 45px;
+    margin-left: -20px;
   }
 
   .subtitle__block {
