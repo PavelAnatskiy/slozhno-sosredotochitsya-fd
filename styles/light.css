@@ -12,14 +12,14 @@
   --accent-color-transparent: rgba(53, 52, 48, 0.4);
   --color-title: #ffc2e6;
   --color-text: #353430;
-}
 
-.rec-badge {
-  display: none;
-}
+  .rec-badge::after {
+    display: none;
+  }
 
-.rec-badge::after {
-  display: none;
+  .rec-badge {
+    display: none;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -32,11 +32,11 @@
     --color-title: #ffc2e6;
     --color-text: #353430;
 
-    .rec-badge {
+    .rec-badge::after {
       display: none;
     }
 
-    .rec-badge::after {
+    .rec-badge {
       display: none;
     }
   }
