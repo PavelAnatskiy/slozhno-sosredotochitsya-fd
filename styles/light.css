@@ -12,6 +12,7 @@
   --accent-color-transparent: rgba(53, 52, 48, 0.4);
   --color-title: #ffc2e6;
   --color-text: #353430;
+  --background-color: rgb(255, 241, 247);
 
   .rec-badge::after {
     display: none;
@@ -31,6 +32,7 @@
     --accent-color-transparent: rgba(53, 52, 48, 0.4);
     --color-title: #ffc2e6;
     --color-text: #353430;
+    --background-color: rgb(255, 241, 247);
 
     .rec-badge::after {
       display: none;

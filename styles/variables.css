@@ -8,8 +8,9 @@
   --menu-color: rgb(255, 0, 112);
   --color-subHeading: #ff0070;
   --accent-color-transparent: rgba(255, 0, 112, 0.4);
-  --font-base: IBM Plex Mono;
+  --font-base: "IBM Plex Mono", "Courier New", monospace;
   --color-title: #db00ff;
   --color-subtitle: #000028;
   --color-text: #f1b2ce;
+  --background-color: rgb(0, 0, 40);
 }

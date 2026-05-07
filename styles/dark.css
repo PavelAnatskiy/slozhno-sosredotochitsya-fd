@@ -12,4 +12,53 @@
   --accent-color-transparent: rgba(255, 0, 112, 0.4);
   --color-title: #db00ff;
   --color-text: #f1b2ce;
+  --background-color: rgb(0, 0, 40);
+
+  .rec-badge {
+    position: absolute;
+    justify-self: end;
+    font-family: var(--font-base);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 139%;
+    text-align: center;
+    color: var(--accent-color);
+  }
+
+  .rec-badge::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: var(--accent-color);
+    border-radius: 50%;
+    align-self: center;
+    margin-left: 10px;
+    box-shadow: 0 0 4px 2px var(--accent-color);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .rec-badge {
+    position: absolute;
+    justify-self: end;
+    font-family: var(--font-base);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 139%;
+    text-align: center;
+    color: var(--accent-color);
+  }
+
+  .rec-badge::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: var(--accent-color);
+    border-radius: 50%;
+    align-self: center;
+    margin-left: 10px;
+    box-shadow: 0 0 4px 2px var(--accent-color);
+  }
 }
