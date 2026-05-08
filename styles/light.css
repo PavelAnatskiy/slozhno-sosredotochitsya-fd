@@ -14,10 +14,6 @@
   --color-text: #353430;
   --background-color: rgb(255, 241, 247);
 
-  .rec-badge::after {
-    display: none;
-  }
-
   .rec-badge {
     display: none;
   }
@@ -33,10 +29,6 @@
     --color-title: #ffc2e6;
     --color-text: #353430;
     --background-color: rgb(255, 241, 247);
-
-    .rec-badge::after {
-      display: none;
-    }
 
     .rec-badge {
       display: none;

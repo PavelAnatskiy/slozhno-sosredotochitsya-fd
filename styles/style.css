@@ -161,6 +161,11 @@
   margin-top: 30px;
 }
 
+.card {
+  display: grid;
+  gap: 10px;
+}
+
 .card__title {
   font-family: var(--font-base), "Courier New", monospace;
   font-weight: 700;
@@ -168,7 +173,6 @@
   line-height: 130%;
   color: var(--color-subtitle);
   margin-top: 20px;
-  margin-bottom: 10px;
 }
 
 .card__text {
@@ -186,7 +190,6 @@
   line-height: 130%;
   color: var(--color-subtitle);
   margin-top: 20px;
-  margin-bottom: 10px;
 }
 
 .link__text {
@@ -195,7 +198,7 @@
 }
 
 .link__text:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid var(--color-text);
 }
 
 .link__text:focus {
@@ -218,6 +221,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
+  margin-top: 10px;
 }
 
 .image {
@@ -434,6 +438,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+  }
+
+  .card {
+    align-self: start;
   }
 
   .card__subtitle-decor {
